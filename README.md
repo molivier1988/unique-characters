@@ -8,9 +8,9 @@ Using array methods, determine whether a string contains unique characters. If y
 
 ## Reflections
 
-I thought I was struggling with the understanding the logic for this exercise but actually was in the general ball park with the conditional if statement.
+I thought I was struggling with understanding the logic for this exercise but actually was in the general ball park with the conditional if statement.
 
-Essentially as the we iterate through the array indexOf() and lastIndexOf() retrive the first and last index of each character in a string. If these 2 values are not equal then the function returns false meaning that the string **does not contain unique characters** else function returns true meaning the string **does contain unique characters**
+Essentially as the we iterate through the array indexOf() and lastIndexOf() retrive the first and last index of each character in a string. If these 2 values are **not equal** then the function returns false meaning that the string **does not contain unique characters** else function returns true meaning the string **does contain unique characters**
 
 ### Dependencies
 
